@@ -5,15 +5,22 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Testcases(failed)">
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_ForgotPassword">
+      <class name="testCases.TC_003_LoginDataDrivenTest">
         <methods>
-          <include name="forgotpwd"/>
+          <include name="test_Login" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC_003_ForgotPassword -->
+      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+      <class name="testCases.TC_013_MyAccount">
+        <methods>
+          <include name="MyAccount"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_013_MyAccount -->
     </classes>
   </test> <!-- Testcases(failed) -->
 </suite> <!-- Failed suite [masterSuite] -->

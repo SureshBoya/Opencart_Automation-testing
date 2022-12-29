@@ -28,7 +28,7 @@ public class TC_002_Login extends BaseClass
 			logger.info("provided email id");
 			lp.setPwd(rb.getString("password"));
 			logger.info("provided passowrd");
-			lp.clickLogin();
+			lp.clickLogin_Btn();
 			logger.info("clicked on Login button");
 			boolean status=lp.isMyacPageExist();
 			if (status) 

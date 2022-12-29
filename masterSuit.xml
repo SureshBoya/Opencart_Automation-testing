@@ -7,12 +7,21 @@
 	</listeners>
 	
 	<test name="Testcases">
-	  <parameter name="browser" value="edge"/>
+	  <parameter name="browser" value="chrome"/>
 	  <classes>
-		 <!--    <class name="testCases.TC_001_AccountRegistration"></class>
+		   <class name="testCases.TC_001_AccountRegistration"></class>
 		    <class name="testCases.TC_002_Login"></class>	
-		    <class name="testCases.TC_003_LoginDataDrivenTest"/>  -->
-		    <class name="testCases.TC_003_ForgotPassword"/>
+		   <class name="testCases.TC_003_LoginDataDrivenTest"/> 
+		      <class name="testCases.TC_004_ForgotPassword"/>
+		    <class name="testCases.TC_006_ProductCompare"/>	
+		    <class name="testCases.TC_007_ProductDisplay"/> 	
+		    <class name="testCases.TC_008_AddToCart"/>	
+		    <class name="testCases.TC_009_WishList"/>	 
+		    <class name="testCases.TC_010_ShoppingCart"/>	
+		     <class name="testCases.TC_012_CheckOut"/>	
+		     <class name="testCases.TC_013_MyAccount"/> 
+		      <class name="testCases.TC_014_MyAccountInformation"/> 	
+		      <class name="testCases.TC_016_AddressBook"/>
 	  </classes>
 	</test>
 	

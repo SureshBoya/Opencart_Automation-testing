@@ -37,7 +37,7 @@ public class TC_003_LoginDataDrivenTest extends BaseClass
 			lp.setPwd(pwd);
 			logger.info("Provided pwd ");
 			
-			lp.clickLogin();
+			lp.clickLogin_Btn();
 			logger.info("Clicked on Login button");
 			
 			boolean status=lp.isMyacPageExist();

@@ -38,7 +38,7 @@ public class LoginPage {
 		txt_pwd.sendKeys(pwd);
 	}
 	
-	public void clickLogin()
+	public void clickLogin_Btn()
 	{
 		btn_login.click();
 	}
